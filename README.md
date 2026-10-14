@@ -1,3 +1,5 @@
 This is a public site for Eiichiro Kazumori's Unified Game Theory Project. The content of the repo is moved to a private repo to avoid hacking. Thank you very much.
 
-https://github.com/user-attachments/assets/375841ec-de76-44ed-afe3-f8cee80442b0
+https://github.com/user-attachments/assets/2c5dca0b-908f-4b57-8de5-f4db398ef6ce
+
+This one-minute video shows how the proofs of Eiichiro Kazumori's von Neumann-Morgenstern-Nash Unified Game Theory were verified with Lean 4. The verification record states: "The verification ran from 5 to 7 October 2026 and is recorded in REPORT64.md." "Every numbered result of UGT64e_LEAN is stated and proved. The three cited literature theorems are proved in Lean from the three standard axioms." "The Lean statements agree with the paper on all 106 items." The build used Lean 4.33.1 and Mathlib v4.33.1. The three standard axioms are propext, Classical.choice, and Quot.sound. The machine checks are green: lake build, lake test, the axiom audit of all 6,955 declarations, and the statement freeze. The result is: "Verified (7 October 2026). Every result of UGT64e_LEAN is stated and proved in Lean, from Lean's three standard axioms alone, including the three literature theorems the paper cites."
